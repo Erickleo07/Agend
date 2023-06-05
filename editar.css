@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    background-color: rgb(22, 22, 22);
+    overflow: hidden;
+  }
+
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .navbar li {
+    flex: 1;
+  }
+
+  .navbar li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .navbar li a:hover {
+    background-color: rgb(39, 39, 39);
+  }
+  .conteudo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .azul {
+background-color: #0084ff;
+color: white;
+border: 1px solid #0084ff;
+width: 100px;
+height: 30px;
+border-radius: 10px 10px 10px 10px;
+font-weight: bold;
+margin-left: 85%;
+}
+  fieldset{
+    border-radius: 30px 30px 30px 30px;
+    width: 80%;
+    background-color: rgb(27, 27, 27);
+    border: none;
+    margin-left: 8%;
+    margin-right: 8%;
+    box-shadow: 20px 10px 40px rgb(0, 0, 0);
+    color: rgb(197, 197, 197);
+  }
+  label{
+      margin-left: 3%;
+  }
+  .pesquisa{
+  width: 30px;
+  height: 32px;
+  border-radius: 0px 4px 4px 0px;
+  border: 1px solid rgb(114, 114, 114);
+  background-color: rgb(49, 49, 49);
+  }
+  .caixa{
+  background-color: rgb(112, 112, 112);
+  border: 1px solid rgb(197, 197, 197);
+  height: 30px;
+  width: 300px;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  border-radius: 4px 0px 0px 4px;
+  margin-left: 73%;
+  }
+  body{
+    background: linear-gradient(#000000, #1b1b1b, #000000);
+  }
+  h1{
+    color: rgb(197, 197, 197);
+  }
+  .azul:hover{
+    cursor: pointer;
+    background-color: #59afff;
+  }
+  .input{
+    margin-left: 3%;
+    background-color: rgb(112, 112, 112);
+    border-radius: 15px;
+    width: 15%;
+    height: 30px;
+    color: rgb(197, 197, 197);
+  }
+  select{
+    margin-left: 3%;
+    padding: 10px;
+    width: 300px;
+    border-radius: 4px;
+    background-color: #0e0c0c;
+    border: none;
+    color: rgb(117, 117, 117);
+  }
+  .data{
+    margin-left: 3%;
+    padding: 10px;
+    width: 300px;
+    border-radius: 4px;
+    background-color: #0e0c0c;
+    border: none;
+    color: rgb(117, 117, 117);
+  }
+  .volta{
+      margin-left: 3%;
+  }
+  .search-container {
+    margin: 20px;
+    }
+    
+    input[type="text"] {
+    margin-left: 3%;
+    padding: 10px;
+    width: 300px;
+    border-radius: 4px;
+    background-color: #0e0c0c;
+    border: none;
+    }
+    input[type="number"] {
+      margin-left: 3%;
+      padding: 10px;
+      width: 300px;
+      border-radius: 4px;
+      background-color: #0e0c0c;
+      border: none;
+      }
+    
+    .button {
+    padding: 10px 20px;
+    background-color: #0084ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 4px 4px 0px;
+    }
+    
+    .button:hover {
+    background-color: #59afff;
+    }
+.btn-login{
+    background-color: rgb(22, 22, 22);
+    margin-top: 2%;
+    margin-left: 73%;
+    color: rgb(197, 197, 197);
+    border: 1px solid rgb(22, 22, 22);
+    height: max-content;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.btn-login:hover{
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}
